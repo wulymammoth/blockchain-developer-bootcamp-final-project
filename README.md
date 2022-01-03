@@ -20,13 +20,20 @@ The "wrinkle" here is that a single wager can be made to be "matched" to multipl
 
 > Specification - The technical specification should describe the syntax and semantics of any new feature. The specification should be detailed enough to allow competing, interoperable implementations for any of the current Ethereum platforms (cpp-ethereum, go-ethereum, parity, ethereumJ, ethereumjs-lib, and others.
 
-[WIP]
+- two parties
+  - for testing purposes, any single party may play against the [**house**]()
+    - ? odds setting
+
+---
+
+- **TODO** <insert flow diagram here>
 
 ---
 
 > Rationale - The rationale fleshes out the specification by describing what motivated the design and why particular design decisions were made. It should describe alternate designs that were considered and related work, e.g. how the feature is supported in other languages. The rationale may also provide evidence of consensus within the community, and should discuss important objections or concerns raised during discussion.
 
-[WIP]
+- consensus will come from an [**oracle**]()
+- objections & concerns
 
 ---
 
