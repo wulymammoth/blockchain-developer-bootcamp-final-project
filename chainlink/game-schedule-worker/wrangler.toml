@@ -1,0 +1,12 @@
+name = "game-schedule-worker"
+type = "webpack"
+
+account_id = "76c3bc70b197231dc360494dc482a328"
+workers_dev = true
+route = ""
+zone_id = ""
+compatibility_date = "2022-01-15"
+
+[vars]
+API_URL = 'https://api.sportsdata.io/'
+PATH = 'v3/nba/scores/json/GamesByDate/'
