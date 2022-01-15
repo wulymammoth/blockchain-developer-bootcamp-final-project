@@ -59,3 +59,17 @@ The "wrinkle" here is that a single wager can be made to be "matched" to multipl
 
 
 [WIP]
+
+---
+
+## Chainlink
+
+- [fulfilling requests](https://docs.chain.link/docs/fulfilling-requests/)
+  - **prerequisites**
+    1. MetaMask /w testlink LINK tokens
+    2. use external Ethereum infra w/ Infura
+    3. use NaaS to set up a node
+    4. fund the node set up from above
+      - with provided address under **keys** for NaaS node operator
+      - send ETH (not LINK)
+  - LINK is provided/sent to the **admin wallet (contract) address** that owns my `Oracle.sol`
