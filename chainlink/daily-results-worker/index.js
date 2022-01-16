@@ -12,7 +12,7 @@ async function handleRequest(request) {
   const gameCollection = map(await games(request), (rawGame) =>
     gamePresenter(rawGame['Game']),
   )
-  return new Response(JSON.stringify(gameCollection), opts)
+  return new Response(JSON.stringify({ data: gameCollection }), opts)
 }
 
 function map(collection, mapper) {

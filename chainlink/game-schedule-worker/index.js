@@ -8,7 +8,7 @@ async function handleRequest(request) {
   const initOpts = { headers: { 'content-type': 'application/json' } }
   const schedule = await gameSchedule(request)
   const dailySchedule = map(schedule, gamePresenter)
-  return new Response(JSON.stringify(dailySchedule), initOpts)
+  return new Response(JSON.stringify({ data: dailySchedule }), initOpts)
 }
 
 function gamePresenter(game) {
